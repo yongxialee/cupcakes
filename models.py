@@ -24,6 +24,7 @@ class Cupcake(db.Model):
         return {
             "id" : self.id,
             "flavor":self.flavor,
+            "size":self.size,
             "rating": self.rating,
             "image":self.image
         }
